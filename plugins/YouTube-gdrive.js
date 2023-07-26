@@ -3,7 +3,7 @@ import { sizeFormatter } from 'human-readable'
 let formatSize = sizeFormatter({
 std: 'JEDEC', decimalPlaces: 2, keepTrailingZeroes: false, render: (literal, symbol) => `${literal} ${symbol}B` })
 let handler = async (m, { conn, args }) => {
-if (!args[0]) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*\n\n*- 𝙲𝙾𝚁𝚁𝙾𝙱𝙾𝚁𝙴 𝚀𝚄𝙴 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 𝚂𝙴𝙰 𝚂𝙸𝙼𝙸𝙻𝙰𝚁 𝙰:*\n*◉ https://drive.google.com/file/d/1dmHlx1WTbH5yZoNa_ln325q5dxLn1QHU/view*\n\n\n*[❗𝐈𝐍𝐅𝐎❗] ERROR TRY AGAIN*\n\n*HELP THAT THE LINK IS SIMILAR TO* ◉ https://drive.google.com/file/d/1dmHlx1WTbH5yZoNa_ln325q5dxLn1QHU/view' 
+if (!args[0]) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*\n\n*- 𝙲𝙾𝚁𝚁𝙾𝙱𝙾𝚁𝙴 𝚀𝚄𝙴 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 𝚂𝙴𝙰 𝚂𝙸𝙼𝙸𝙻𝙰𝚁 𝙰:*\n*◉ https://drive.google.com/file/d/1dmHlWTbH5yZoNa_ln325q5dxLn1QHU/view*\n\n\n*[❗𝐈𝐍𝐅𝐎❗] ERROR TRY AGAIN*\n\n*HELP THAT THE LINK IS SIMILAR TO* ◉ https://drive.google.com/file/d/1dmH1WTbH5yZoNa_ln325q5dxLn1QHU/view' 
 try {
 GDriveDl(args[0]).then(async (res) => {
 conn.reply(m.chat, '*DESCARGANDO EL ARCHIVO SI DEMORA MUCHO SERÁ PORQUE EL ARCHIVO PESA MÁS 100 MB ES POSIBLE QUE NO SE MANDE EL ARCHIVO*\n\n\n*DOWNLOADING THE FILE IF IT TAKES A LONG TIME, IT WILL BE BECAUSE THE FILE WEIGHS MORE THAN 100 MB IT IS POSSIBLE THAT THE FILE WILL NOT BE SENT*', m)
