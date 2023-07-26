@@ -20,12 +20,12 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
+let str = `╭「➻❥𝐃𝐑𝐎𝐈𝐃-8-𝐌𝐃➻❥」
 │➯✨ *𝗛ᴏʟᴀ,➟${taguser}*
-│➯🌴 *ᴏᴡɴᴇʀ:ᴏғᴄ➟ʏᴏᴠᴀɴɪ*
-│➯🧿 *Número*➟5212412377467*
-│➯📽️ *canal-YouTube*
-│➯🖇️ *https://youtube.com/@hades_bot2391*
+│➯🌴 *ᴏᴡɴᴇʀ:ᴏғᴄ➟𝑻𝑶𝑵𝒀ɪ*
+│➯🧿 *Número*➟50258487658*
+│➯📽️ *Tik-tok*
+│➯🖇️ *http://tiktok.com/@coin.exe1*
 │➯📅 *ғᴇᴄʜᴀ:➟${date}*
 │➯⏰ *ᴛɪᴇᴍᴘᴏ:➟${uptime}*
 │➯👥 *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}*
@@ -42,20 +42,18 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥📌 *𝕀ℕ𝔽𝕆 𝔹𝕆𝕋* 📌❥」
-│➯🎙️ *.menu2 notas de audios*
+│➯🎙️ *.menu2 [notas de audios]*
 │➯🪴 *.animes imagenes*
 │➯🍁 *.grupos*
-│➯🫅🏻 *.owner contactos*
-│➯🔞 *.labiblia +18*
-│➯🆙 *.enable comandos para el owner*
+│➯🫅🏻 *.owner [contactos]*
+│➯🔞 *.labiblia [+18]*
+│➯🆙 *.enable [comandos para el owner]*
 │➯💥 *.instalarbot Hades*
 │➯🏓 *.logos*
-│➯✨ *.sc git hades*
 │➯♻️ *.comangrupos*
 │➯💠 *.infogrupo*
 │➯🛒 *.shop tienda*
 │➯🛒 *.sell tienda*
-│➯📍 *.ip servidor de minecraft*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥🌟 *Grupos* 🌟❥」
