@@ -1,7 +1,7 @@
 {
-    "name": "HADES-BOT-OMEGA",
+    "name": "DROID-8-MD",
     "version": "1.0.0",
-    "description": "SUSCRÍBETE A NUESTRO CANAL DE YOUTUBE HADES-BOT",
+    "description": "TIKTOK @coin.exe1",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -14,16 +14,16 @@
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
-    "homepage": "https://github.com/OFC-YOVANI/HADES-BOT-OMEGA",
+    "homepage": "https://chat.whatsapp.com/CkA0gnGz99l6fJgTbIvUBH",
     "author": {
-        "name": "OFC-YOVANI"
+        "name": "OFC-TONY"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/OFC-YOVANI/HADES-BOT-OMEGA.git"
+        "url": "https://chat.whatsapp.com/CkA0gnGz99l6fJgTbIvUBH"
     },
     "bugs": {
-        "url": "https://github.com/OFC-YOVANI/HADES-BOT-OMEGA/issues"
+        "url": "https://chat.whatsapp.com/CkA0gnGz99l6fJgTbIvUBH/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
