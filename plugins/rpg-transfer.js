@@ -8,7 +8,7 @@ async function handler(m, { conn, args, usedPrefix, command }) {
     const item = items.filter(v => v in user && typeof user[v] == 'number')
     let lol = `✳️ Command usage
 *${usedPrefix + command}* [type] [amount] [@user]
-📌 Example : ${usedPrefix + command} exp 65 @5212412377467
+📌 Example : ${usedPrefix + command} exp 65 @50258487658
 
 📍 Transfer Items
 ┌──────────────
