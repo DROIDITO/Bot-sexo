@@ -3,7 +3,7 @@ import axios from 'axios'
 import cheerio from 'cheerio'
 import vm from 'node:vm'
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝚃𝚆𝙸𝚃𝚃𝙴𝚁, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command}* https://twitter.com/auronplay/status/1586487664274206720?s=20&t=3snvkvwGUIez5iWYQAehpw` 
+if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝚃𝚆𝙸𝚃𝚃𝙴𝚁, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command}* https://twitter.com/auronplay/status/1586487664274206720?s=20&t=3snvkvwGz5iWYQAehpw` 
 try {
 let res = await twitterDl(text)
 await m.reply(global.wait)
@@ -21,7 +21,7 @@ handler.command = /^((twdl|tw|twt|twitter)(dl)?)$/i
 export default handler
 async function twitterDl(url) {
 let id = /twitter\.com\/[^/]+\/status\/(\d+)/.exec(url)?.[1]
-if (!id) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝙴𝙽𝙻𝙰𝙲𝙴 𝚅𝙰𝙻𝙸𝙳𝙾 𝙳𝙴 𝚃𝚆𝙸𝚃𝚃𝙴𝚁, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: #twitter* https://twitter.com/auronplay/status/1586487664274206720?s=20&t=3snvkvwGUIez5iWYQAehpw'
+if (!id) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝙴𝙽𝙻𝙰𝙲𝙴 𝚅𝙰𝙻𝙸𝙳𝙾 𝙳𝙴 𝚃𝚆𝙸𝚃𝚃𝙴𝚁, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: #twitter* https://twitter.com/auronplay/status/1586487664274206720?s=20&t=3snvkvwez5iWYQAehpw'
 let res = await fetch(`https://tweetpik.com/api/tweets/${id}`)
 if (res.status !== 200) throw res.statusText
 let json = await res.json()
